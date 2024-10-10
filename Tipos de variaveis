@@ -1,0 +1,9 @@
+nome = "Orlando"
+idade = 45
+peso = 60.45
+e = True
+print("O valor da variavel idade vezes 2 é",idade*2)
+print("A variável nome é do tipo",type(nome))
+print("A variável idade é do tipo",type(idade))
+print("A variável peso é do tipo",type(peso))
+print("A variável 'e' , é do tipo",type(e))
