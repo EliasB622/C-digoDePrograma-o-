@@ -1,0 +1,25 @@
+print("=====Digite os dados-----")
+nome=input("Digite nome jogador: ")
+vitalidade = 3
+
+print("Bem-vindo jogo, eu vos apresento o nivel 1")
+print("Nesse nivel voce tera que passar pela a ponte que esta localizada no regiao sul da ilha dos esquecidos, tome cuidade, ha espinhos afiados e monstros perigosos a espera de um esquecido que tomar o caminha da rebeldia")
+print("(para passar nesse test, voce deve encontar o valo de X na equasao:X=13+34*5)")
+
+nds = (int(input("nivel de sobrevivencia:"))) # Nivel de sobrevivencia
+if nds==183:
+    print("voce passou pela ponte, nao se feril nos espinho e nao foi atacado por nenhum monstro, meus parabens😊, segue proximo nivel ")
+else:
+    print("voce se feriu nos espinhos e os montros te pegaram")
+    print("Game Over")
+
+print("Agora, estmos no nivel 2")
+print("Voce tera que sobreviver por 2 dias sem dormir, pois eles estam esperando a hora do seu adormecer.😈")
+print("para sobreviver a essas duas longas noites em dormir, voce deve resolver a seguinte equasaoa:(56+34-60+40)")
+nds = (int(input("nivel de sobrevivencia:")))
+
+if nds ==70:
+    print("voce sobrevivvel a esses longos e dolorosos 2 dias, voce é exepcional 🥳")
+else:
+    print("eles te comerando enquanto vc esatav dormindo")
+    print("Game Over")
