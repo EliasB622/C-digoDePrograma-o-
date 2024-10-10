@@ -1,0 +1,11 @@
+nome = "Hérique Bucetchonsom"
+idade = 22
+peso = 74.44
+passivo = True
+
+print("Bom Dia!",nome)
+
+valor1 = 20
+valor2 = 2
+resultado = valor1+valor2
+print(resultado, passivo)
