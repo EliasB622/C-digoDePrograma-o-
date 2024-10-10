@@ -1,0 +1,22 @@
+jogardo = "Mario"
+nivel = 2
+credito = 300000000
+vida = 5
+
+if vida > 0:
+     print("GO!")
+
+else:
+    print("Game Over")
+print("--------------")
+if nivel == 1:
+    print("codigos de nivel 1")
+elif nivel == 2:
+    print("codigos de nivel 2")
+elif nivel == 3:
+    print("codigos de nivel 3")
+elif nivel == 4:
+    print("codigos de nivel 4")
+else:
+    print("Nivel não liverádo")
+print("Game Over")
