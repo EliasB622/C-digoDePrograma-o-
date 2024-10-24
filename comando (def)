@@ -1,0 +1,8 @@
+def somar(valor1, valor2):
+    soma = valor1 + valor2
+    print(soma)
+preco1 = int(input("Digito preco1: "))
+preco2 = int(input("Digito preco2: "))
+
+print("sua compra ficou no valor de:")
+somar(preco1,preco2)
