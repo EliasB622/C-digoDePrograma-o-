@@ -1,0 +1,13 @@
+def numero(x):
+    if x==1:
+        print('você escolheu 1!')
+    elif x==2:
+        print('você escolheu 2 !')
+    elif x==3:
+        print('você escolheu 3 !')
+    else:
+        print('Numero escolido inválido')
+        print('Você deve digitar 1,2 ou 3')
+    
+arma = int(input('escolha a arma:'))
+numero(arma)
