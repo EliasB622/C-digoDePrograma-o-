@@ -1,0 +1,15 @@
+Gráfico de linha
+
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4],[1,4,9,6],"pink")
+
+
+Gráfico de pizza
+
+import pandas as pd
+import matplotlib.pyplot as plt
+dados = {'Categoria':['A','B','C','D'], 'Valor':[30,20,5,15]}
+df=pd.DataFrame(dados)
+df.plot(kind='pie',y='Valor',labels=df['Categoria'],autopct='%1.1f%%',startangle=90)
+#exibido
+plt.show()
