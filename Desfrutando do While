@@ -1,4 +1,11 @@
-nome = input('Digite seu nome: ')
+nome=""
+nome = input("Digite o nome: ")
+vezes = int(input("Repetir quantas vezes? "))
+x=1
+while x<=vezes:
+    print(nome)
+    x+=1
+print("fim")
 
-while nome:
-    nome = input ('Digite seu nome: ')
+
+
